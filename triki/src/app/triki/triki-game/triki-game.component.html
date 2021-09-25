@@ -1,0 +1,32 @@
+<h2 style="margin-top: 30px;">Turno para: {{turnOf}}</h2>
+<h2>{{MarkWinner}}</h2>
+<button (click)="Restart()" *ngIf="ReloadTurn">Reiniciar</button>
+<div style="display: flex;width: 20%; flex-wrap: wrap;margin-top: 10%;">
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn1')">{{button.btn1}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn2')">{{button.btn2}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn3')"> {{button.btn3}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn4')"> {{button.btn4}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn5')"> {{button.btn5}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn6')">{{button.btn6}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn7')"> {{button.btn7}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn8')">{{button.btn8}} </button>
+    </div>
+    <div class="cuadro">
+        <button class="boton" (click)="AddMark('btn9')">{{button.btn9}} </button>
+    </div>
+</div>
