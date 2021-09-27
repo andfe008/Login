@@ -2,4 +2,4 @@
 Prueba Técnica api
 
 
-esta es una prueba realzada para la sustetación de la prueba Carvajal
+Esta es una prueba realizada para la sustetación de la prueba Carvajal
